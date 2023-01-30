@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet var startButton: UIButton!
     
     //MARK: private properties
+    
     private var color = Color.red
     
     private let turnOn: CGFloat = 1
@@ -37,7 +38,6 @@ class ViewController: UIViewController {
         redView.layer.cornerRadius = redView.frame.height / 2
         redView.alpha = turnOff
     
-        
         yellowView.layer.cornerRadius = yellowView.frame.height / 2
         yellowView.alpha = turnOff
         
